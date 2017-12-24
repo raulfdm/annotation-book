@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "plugin": "gitbook install",
     "build:book": "gitbook build",
     "build:deploy": "surge -p _book/ -d raulfdm-gitbook.surge.sh",
     "build": "npm-run-all build:book build:deploy",
@@ -19,6 +20,7 @@
     "npm-run-all": "^4.1.2"
   },
   "dependencies": {
-    "gitbook-plugin-advanced-emoji": "^0.2.2"
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-toggle-chapters": "^0.0.3"
   }
 }

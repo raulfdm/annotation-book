@@ -1,3 +1,10 @@
 {
-    "plugins" : ["advanced-emoji"]
+    "plugins" : ["advanced-emoji","splitter","collapsible-chapters","edit-link"],
+    "pluginsConfig": {
+        "collapsible-chapters":{},
+        "edit-link": {
+            "base": "https://github.com/raulfdm/annotation-book/tree/master/",
+            "label": "Edit This Page"
+        }
+	}
 }

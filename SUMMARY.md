@@ -8,26 +8,28 @@
 
 ### CSS
   * [Dicas Aleatórias](./subjects/css/random-tips.md)
-  * ↓ Conceitos
+  * [Stick Footer](./subjects/css/stick-footer.md)
+  * Conceitos
     * [Medidas Relativas](./subjects/css/relative-mesure.md)
     * [Ordem de Precedência](./subjects/css/precedence.md)
-  * [Stick Footer](./subjects/css/stick-footer.md)
 
 ### Redux
   * [Geral](./subjects/redux/README.md)
 
 ### JavaScript
-  * [Libs Úteis](./subjects/javascript/utils-libs.md)
+  * Libs
+    * [Libs Úteis](./subjects/javascript/utils-libs.md)
     * [Pubsub JS](./subjects/javascript/pubsub-js.md)
-  * ↓ Estudos
-    * [Arrays](./subjects/javascript/studies/array/array.md)
+  * Estudos
+    * Arrays
+      * [Array](./subjects/javascript/studies/array/array.md)
       * [Filter](./subjects/javascript/studies/array/filter.md)
       * [Map](./subjects/javascript/studies/array/map.md)
     * [Functions](./subjects/javascript/studies/functions.md)
     * [Objects](./subjects/javascript/studies/objects.md)
     * [Variáveis e Escopo](./subjects/javascript/studies/variables-scope.md)
     * [Strings](./subjects/javascript/studies/string.md)
-  * ↓ Snippets
+  * Snippets
     * [Fetch API](./subjects/javascript/snippets/fetch-api.md)
     * [Multiseleção Historico Chrome](./subjects/javascript/snippets/multiselect-histories-chrome.md)
     * [PushID Generator](./subjects/javascript/snippets/pushid-generator.md)
@@ -36,6 +38,9 @@
 
 ### Vuejs
   * [Geral](./subjects/vuejs/all.md)
+
+### VIM
+  * [Geral](./subjects/vim/README.md)
 
 ### TypeScript
   * [Casting](./subjects/typescript/casting.md)
@@ -47,19 +52,19 @@
 
 ### Projetos
   * [Boas práticas novos projetos](./subjects/projects/best-pratices-new-project.md)
-  * ↓ Snippets
+  * Snippets
     * [.editorconfig](./subjects/projects/editorconfig.md)
     * [CONTRIBUTING.md](./subjects/projects/contributing.md)
     * [Changelog](./subjects/projects/changelog.md)
   
 ### Terminal (Unix)
   * [Alias](./subjects/terminal/alias.md)
-  * ↓ Snippets
+  * Snippets
     * [Meus Aliases](./subjects/terminal/snippets/my-aliases.md)
 
 ### Linux
   * [Programas "must-have"](./subjects/linux/default-programs.md)
-  * ↓ Instalações e Guias
+  * Instalações e Guias
     * [Arquivos APPIMAGE](./subjects/linux/installing/appimage.md)
     * [Correção NPM Global](./subjects/linux/installing/npm-global-fix.md)
     * [Fraz](./subjects/linux/installing/franz.md)

@@ -142,6 +142,10 @@ gitbook-plugin-advanced-emoji@^0.2.2:
   dependencies:
     emojify.js "^1.1.0"
 
+gitbook-plugin-toggle-chapters@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/gitbook-plugin-toggle-chapters/-/gitbook-plugin-toggle-chapters-0.0.3.tgz#6e5f5aa61b9b2e221c380cdf6e928320015ecfb9"
+
 graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
