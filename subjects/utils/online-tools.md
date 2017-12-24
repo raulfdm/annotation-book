@@ -12,6 +12,8 @@
 - [QR-CODE Generator](http://www.qr-code-generator.com/)
 - [MP4 to Gif (edit as well)](https://ezgif.com/)
 - [Magnet > Torrent File](http://magnet2torrent.com/)
+- [Slides Online](https://slides.com/): Construir apresentações usando HTML+CSS+JS (ou o editor)
+- [Emoji Markdown Cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/): :smirk:
 
 ---
 
