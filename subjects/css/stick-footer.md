@@ -4,7 +4,7 @@
 Hoje é possível fazer essa técnica utilizando o flexbox. Primeiro, precisamos definir que todos os elementos estejam em um wrapper, ou seja, um container que engloba tudo isso. No caso, será o body:
 
 ```html
-<body>`
+<body>
     <header> </header>
     <main></main>
     <footer></footer>
