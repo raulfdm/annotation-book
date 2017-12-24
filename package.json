@@ -11,6 +11,7 @@
     "build:book": "gitbook build",
     "build:deploy": "surge -p _book/ -d raulfdm-gitbook.surge.sh",
     "build": "npm-run-all build:book build:deploy",
+    "start": "gitbook serve",
     "prepush": "build"
   },
   "devDependencies": {
