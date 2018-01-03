@@ -93,3 +93,10 @@
 ### Inglês
   * [Going To vs Will](./subjects/english/going-to-will.md)
   * [Present Perfect](./subjects/english/present-perfect.md)
+
+### Nutrição
+  * [Dieta Flexível](./subjects/nutrition/flexible-diet/README.md)
+    * [Balanço Calórico](./subjects/nutrition/flexible-diet/balanco-calorico/README.md)
+      * [Gasto](./subjects/nutrition/flexible-diet/balanco-calorico/gasto-calorico.md)
+      * [Calculo](./subjects/nutrition/flexible-diet/balanco-calorico/calculo-calorias.md)
+      * [Ajustes](./subjects/nutrition/flexible-diet/balanco-calorico/ajuste-calorico.md)
