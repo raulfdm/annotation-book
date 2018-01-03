@@ -99,4 +99,6 @@
     * [Balanço Calórico](./subjects/nutrition/flexible-diet/balanco-calorico/README.md)
       * [Gasto](./subjects/nutrition/flexible-diet/balanco-calorico/gasto-calorico.md)
       * [Calculo](./subjects/nutrition/flexible-diet/balanco-calorico/calculo-calorias.md)
+        * [Meu resultado](./subjects/nutrition/flexible-diet/balanco-calorico/resultados.md)
       * [Ajustes](./subjects/nutrition/flexible-diet/balanco-calorico/ajuste-calorico.md)
+      * [Avaliando o Progresso](./subjects/nutrition/flexible-diet/balanco-calorico/medindo-progresso.md)
