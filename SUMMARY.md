@@ -13,6 +13,7 @@
     * [Medidas Relativas](./subjects/css/relative-mesure.md)
     * [Ordem de Precedência](./subjects/css/precedence.md)
     * [Posicionamento](./subjects/css/position.md)
+    * [Border Radius](./subjects/css/border-radius.md)
 
 ### Redux
   * [Geral](./subjects/redux/README.md)
