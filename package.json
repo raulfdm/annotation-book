@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-jsfiddle": "^1.0.1",
     "gitbook-plugin-toggle-chapters": "^0.0.3"
   }
 }

@@ -142,6 +142,10 @@ gitbook-plugin-advanced-emoji@^0.2.2:
   dependencies:
     emojify.js "^1.1.0"
 
+gitbook-plugin-jsfiddle@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gitbook-plugin-jsfiddle/-/gitbook-plugin-jsfiddle-1.0.1.tgz#c88ca27768f7c93cab804511c1a42600fef3bebf"
+
 gitbook-plugin-toggle-chapters@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-toggle-chapters/-/gitbook-plugin-toggle-chapters-0.0.3.tgz#6e5f5aa61b9b2e221c380cdf6e928320015ecfb9"
