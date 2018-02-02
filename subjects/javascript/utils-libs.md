@@ -8,6 +8,7 @@
   - [Babelify](https://github.com/babel/babelify): Transformar Browserify em Babel
 - [Babel](https://babeljs.io/): Transpilador de código ES6^ para ES5
 - [Immutable JS](https://facebook.github.io/immutable-js/): Trabalhar com dados imutáveis (Map, List, etc)
+- [Yeoman](http://yeoman.io/codelab/index.html): THE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS
 
 ## React
 - [Enzyme](http://airbnb.io/enzyme/): Testar componentes React
