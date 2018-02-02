@@ -14,6 +14,7 @@
     * [Ordem de Precedência](./subjects/css/precedence.md)
     * [Posicionamento](./subjects/css/position.md)
     * [Border Radius](./subjects/css/border-radius.md)
+    * [Box and Text Shadow](./subjects/css/box-shadow.md)
 
 ### Redux
   * [Geral](./subjects/redux/README.md)
@@ -22,6 +23,8 @@
   * Libs
     * [Libs Úteis](./subjects/javascript/utils-libs.md)
     * [Pubsub JS](./subjects/javascript/pubsub-js.md)
+  * BabelJS
+    * [Ordem dos Presets](./subjects/javascript/babel/presets-order.md)
   * Estudos
     * Arrays
       * [Array](./subjects/javascript/studies/array/array.md)
