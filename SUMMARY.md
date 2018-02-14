@@ -83,6 +83,7 @@
 
 ### Git
   * [Tutorial](./subjects/git/all.md)
+  * [Problemas e Soluções](./subjects/git/troubleshoot.md)
 
 ### Regex
   * [Geral](./subjects/regex/README.md)
