@@ -8,16 +8,15 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "plugin": "gitbook install",
-    "build:book": "gitbook build",
-    "build:deploy": "surge -p _book/ -d https://raulfdm-gitbook.surge.sh",
-    "build": "npm-run-all build:book build:deploy",
-    "start": "gitbook serve",
-    "prepush": "npm run build"
+    "gb:install": "gitbook install",
+    "build": "gitbook build",
+    "predeploy": "npm run build",
+    "postinstall": "gitbook install",
+    "deploy": "surge -p _book/ -d https://raulfdm-gitbook.surge.sh",
+    "start": "gitbook serve"
   },
   "devDependencies": {
-    "husky": "^0.14.3",
-    "npm-run-all": "^4.1.2"
+    "gitbook-cli": "^2.3.2"
   },
   "dependencies": {
     "gitbook-plugin-advanced-emoji": "^0.2.2",
