@@ -7,7 +7,7 @@
 
 ---
 
-## Atention :warning:
+## :warning: Atention :warning:
 
 All my notes were wrote in PT-BR, because it's my main language, but, you can use this project to create your own notebook!
 
@@ -37,7 +37,7 @@ yarn start
 npm start
 ```
 
-## To Delpoy
+## To Deploy
 
 To deploy this book I'm using [Surge](https://surge.sh/). If you want to deploy you own, access their website, install the CLI and configure it.
 
