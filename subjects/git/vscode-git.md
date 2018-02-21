@@ -51,4 +51,9 @@ Para ter acesso a isso, precisamos adicionar uma extensão chamada: `Git: Add Re
 Quando chamamos ela no Command Pallet, ele pergunta qual é o nome do repositório remoto que está sendo adicionado e em seguida a URL. Feito isso, será executado o comando:
 `git remote add <nome-fornecido> <url>` no repositório atual.
 
+### [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+Permite você ver o responsável pelas alterações e a has do commit de uma determinada linha dentro do código.
+![Blame Preview](./media/blame-preview.gif)
 
+### [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+Permite você ver uma representação gráfica de cada commit feito, como está a árvore e ainda comparar as mudanças que foram feitas.![Blame Preview](./media/git-history.gif)
