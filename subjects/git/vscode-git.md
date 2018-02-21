@@ -25,7 +25,9 @@ A seta para baixo significa que há mudanças no branch trackeado (remoto) a ser
 Clicando nela, ocorre uma sequencia de ações como pull/push para deixar ambos os repositórios iguais.
 
 ## Menu ...
+
 ![Menu Options](./media/menu-options.png)
+
 O menu do git no VScode apresenta uma série de funcionalidades interessantes.
 
 ### Pull from...
@@ -43,7 +45,7 @@ Para ver a lista completa, abra o Command Pallet e digite `Git`.
 
 ## Libs complementares
 
-### Git: Add Remote
+### [Git: Add Remote](https://marketplace.visualstudio.com/items?itemName=samschneller.git-add-remote)
 Apesar de ser bem completo, o VSCODE ainda não possúi um comando muito útil hoje em dia: o Add remote!
 
 Para ter acesso a isso, precisamos adicionar uma extensão chamada: `Git: Add Remote`
