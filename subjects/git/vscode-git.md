@@ -58,4 +58,6 @@ Permite você ver o responsável pelas alterações e a has do commit de uma det
 ![Blame Preview](./media/blame-preview.gif)
 
 ### [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-Permite você ver uma representação gráfica de cada commit feito, como está a árvore e ainda comparar as mudanças que foram feitas.![Blame Preview](./media/git-history.gif)
+Permite você ver uma representação gráfica de cada commit feito, como está a árvore e ainda comparar as mudanças que foram feitas.
+
+![Blame Preview](./media/git-history.gif)
