@@ -38,6 +38,7 @@
   * [Objects](./subjects/javascript/studies/objects.md)
   * [Variáveis e Escopo](./subjects/javascript/studies/variables-scope.md)
   * [Strings](./subjects/javascript/studies/string.md)
+  * [Partial Applications](./subjects/javascript/studies/partial-applications.md)
 * Snippets
   * [Fetch API](./subjects/javascript/snippets/fetch-api.md)
   * [Multiseleção Historico Chrome](./subjects/javascript/snippets/multiselect-histories-chrome.md)
