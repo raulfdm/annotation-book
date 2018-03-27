@@ -54,6 +54,13 @@
 
 * [Geral](./subjects/vim/README.md)
 
+### Tools
+
+* VSCode
+  * Snippets
+    * [Tasks](./subjects/tools/vscode/snippets/task.md)
+  * [Configurar tasks](./subjects/tools/vscode/configure-tasks.md)
+
 ### Webpack
 
 * Dicas
