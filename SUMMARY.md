@@ -6,6 +6,7 @@
 
 * [Ferramentas Online](./subjects/utils/online-tools.md)
 * [Cursos](./subjects/utils/courses.md)
+* [Pegar URL de um video no youtube](./subjects/utils/get-mp4-from-youtube.md)
 
 ### CSS
 
@@ -72,6 +73,9 @@
 * [Decorators](./subjects/typescript/decorators.md)
 
 ### NodeJS
+
+* Express
+  * [Ativando Cross-Origin](./subjects/node/express/cors.md)
 
 * Snippets
   * [Arquivo configuração Mongoose](./subjects/node/snippets/mongoose-config.md)
