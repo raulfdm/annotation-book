@@ -46,6 +46,7 @@ Then, open `package.json` file and at `deploy` script, set the URL you want to d
 ## Notes
 
 * Everytime you add a new plugin run:
+
   ```bash
   yarn gb:install
   # or

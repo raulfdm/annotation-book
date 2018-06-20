@@ -110,6 +110,7 @@
 * [Tutorial](./subjects/git/all.md)
 * [GIT + Vscode](./subjects/git/vscode-git.md)
 * [Problemas e Soluções](./subjects/git/troubleshoot.md)
+* [Rebase](./subjects/git/rebase.md)
 
 ### Regex
 
