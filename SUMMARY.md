@@ -113,12 +113,14 @@
 - [Problemas e Soluções](./subjects/git/troubleshoot.md)
 - [Rebase](./subjects/git/rebase.md)
 - [--set-upstream](./subjects/git/upstream.md)
-- [Cherry Pick](./cherry-pick.md)
+- [Cherry Pick](./subjects/git/cherry-pick.md)
+- [Commit Parcial](./subjects/git/git-add-partial.md)
 
 ### Regex
 
 - [Geral](./subjects/regex/README.md)
 - [Anotações](./subjects/regex/notes.md)
+- [A](./subjects/regex/notes.md)
 - Temas
   - [Começando com Regex](./subjects/regex/topics/getting-started.md)
   - [Classes](./subjects/regex/topics/char-class.md)
