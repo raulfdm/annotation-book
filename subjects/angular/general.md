@@ -66,7 +66,7 @@ Onde:
 
 ### One way Data-binding
 
-Para fazer data-binding no Angular, no template, você usa uma AE (Angular Expression) definida por {{ <minha-variável> }}:
+Para fazer data-binding no Angular, no template, você usa uma AE (Angular Expression) definida por `{{ <minha-variável> }}`:
 
 ```html
 <h1>
