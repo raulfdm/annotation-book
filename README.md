@@ -3,19 +3,19 @@
 > Personal online notebook to write down my studies, ideas, bug solutions and what else I want to :notebook:
 
 - [Github Project](https://github.com/raulfdm/annotation-book)
-- [Online Notebook](https://raulfdm-gitbook.surge.sh/)
+- [Online Notebook](https://raulfdm-notebook.netlify.com/)
 
 ---
 
 > ⚠️ Attention ️️️️⚠️
 >
-> All my notes were wrote in PT-BR because it's my mother language But you can use it to create your own.
+> Most of my notes were wrote in pt-BR (🇧🇷) because it's my mother language. So if you're not a portuguese speaker the annotations won't make sense at all, however, I'm writing this introduction in english to make it possible everyone uses the base structure and create your own notebook :).
 
 ## How to Use
 
-The first version of this project was based on Gitbook. However, after read [this issue](https://github.com/GitbookIO/gitbook/issues/1808) on Gitbook's repository it seems the team will not keep Gitbook V2 open-source. Also there's no reply and answers on the issues there so I've just decided to find another open-source and well maintained solution which solves my problem.
+The first version of this project was based on [Gitbook](https://github.com/GitbookIO/gitbook). However, after read [this issue](https://github.com/GitbookIO/gitbook/issues/1808) on Gitbook's repository it seems the team will not keep Gitbook V2 open-source. Also there's no reply and answers on the issues there so I've just decided to find another open-source and well maintained solution which solves my problem.
 
-### Docsify
+### About Docsify
 
 [Docsify](https://docsify.js.org) is a really nice tool to build web documentation writing markdown. They use VueJS, which makes the lib way lighter and also fast.
 
