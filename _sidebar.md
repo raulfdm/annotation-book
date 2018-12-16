@@ -2,27 +2,27 @@
 
 - **General**
 
-  - [Ferramentas Online](docs/utils/online-tools.md)
   - [Cursos](docs/utils/courses.md)
+  - [Ferramentas Online](docs/utils/online-tools.md)
   - [Pegar URL de um video no youtube](docs/utils/get-mp4-from-youtube.md)
 
 - **Development**
 
-  - [Angular](docs/development/angular/general)
+  - [Angular](docs/development/angular/readme.md)
   - [BabelJS](docs/development/babel/readme.md)
   - [CSS](docs/development/css/readme.md)
   - [JavaScript](docs/development/javascript/readme.md)
   - [NodeJS](docs/development/node/readme)
+  - [Project Tips](docs/development/projects/readme.md)
   - [PubSubJS](docs/development/javascript/pubsub-js.md)
   - [React Native](docs/development/react-native/general.md)
   - [Redux](docs/development/redux/README.md)
   - [Regex (JS)](docs/development/regex/readme.md)
   - [TypeScript](docs/development/typescript/_sidebar.md)
-  - [VSCode](docs/development/vscode/readme.md)
   - [VIM](docs/development/vim/readme.md)
+  - [VSCode](docs/development/vscode/readme.md)
   - [Vue](docs/development/vuejs/all.md)
   - [Webpack](docs/development/webpack/readme.md)
-  - [Project Tips](docs/development/projects/readme.md)
 
 - **IT Related**
 
