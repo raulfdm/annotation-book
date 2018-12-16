@@ -9,36 +9,12 @@
 - [Pegar URL de um video no youtube](./subjects/utils/get-mp4-from-youtube.md)
 
 
-### Angular
-
-- [Geral](./subjects/angular/general.md)
-
-### CSS
-
-- [Dicas Aleatórias](./subjects/css/random-tips.md)
-- [Stick Footer](./subjects/css/stick-footer.md)
-- Conceitos
-  - [Medidas Relativas](./subjects/css/relative-mesure.md)
-  - [Ordem de Precedência](./subjects/css/precedence.md)
-  - [Posicionamento](./subjects/css/position.md)
-  - [Border Radius](./subjects/css/border-radius.md)
-  - [Box and Text Shadow](./subjects/css/box-shadow.md)
-
-### React Native
-
-- [Geral](./subjects/react-native/general.md)
-
-### Redux
-
-- [Geral](./subjects/redux/README.md)
 
 ### JavaScript
 
 - Libs
-  - [Libs Úteis](./subjects/javascript/utils-libs.md)
-  - [Pubsub JS](./subjects/javascript/pubsub-js.md)
-- BabelJS
-  - [Ordem dos Presets](./subjects/javascript/babel/presets-order.md)
+
+
 - Estudos
   - Arrays
     - [Array](./subjects/javascript/studies/array/array.md)
@@ -56,9 +32,6 @@
   - [Vanilla HTTP GET](./subjects/javascript/snippets/vanilla-request.md)
   - [Remove notifição anti-adblock](./subjects/javascript/snippets/clean-ad-exame.md)
 
-### Vuejs
-
-- [Geral](./subjects/vuejs/all.md)
 
 ### VIM
 
@@ -66,29 +39,13 @@
 
 ### Tools
 
-- VSCode
-  - Snippets
-    - [Tasks](./subjects/tools/vscode/snippets/task.md)
-  - [Configurar tasks](./subjects/tools/vscode/configure-tasks.md)
 
-### Webpack
 
-- Dicas
-  - [Erro Unknow word + Storybook](./subjects/webpack/css-unknow-word.md)
 
-### TypeScript
-
-- [Casting](./subjects/typescript/casting.md)
-- [Decorators](./subjects/typescript/decorators.md)
 
 ### NodeJS
 
-- Express
 
-  - [Ativando Cross-Origin](./subjects/node/express/cors.md)
-
-- Snippets
-  - [Arquivo configuração Mongoose](./subjects/node/snippets/mongoose-config.md)
 
 ### Projetos
 
