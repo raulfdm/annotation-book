@@ -1,26 +1,17 @@
 {
   "name": "annotation-book",
   "version": "0.0.1",
-  "description": "Personal Gitbook to store notes, tutorials and whatever annotation I need",
+  "description": "A online notebook to write down ideas, tutorials and whatever I have in my mind",
   "main": "index.js",
   "repository": "git@github.com:raulfdm/annotation-book.git",
   "author": "Raul de Melo",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "gb:install": "gitbook install",
-    "build": "gitbook build",
-    "predeploy": "npm run build",
-    "postinstall": "gitbook install",
-    "deploy": "surge -p _book/ -d https://raulfdm-gitbook.surge.sh",
-    "start": "gitbook serve"
+    "dev": "docsify serve ."
   },
-  "devDependencies": {
-    "gitbook-cli": "^2.3.2"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "gitbook-plugin-advanced-emoji": "^0.2.2",
-    "gitbook-plugin-jsfiddle": "^1.0.1",
-    "gitbook-plugin-toggle-chapters": "^0.0.3"
+    "docsify-cli": "^4.3.0"
   }
 }
