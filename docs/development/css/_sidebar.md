@@ -1,0 +1,8 @@
+- [Dicas Aleatórias](docs/development/css/random-tips.md)
+- [Stick Footer](docs/development/css/stick-footer.md)
+- Conceitos
+  - [Border Radius](docs/development/css/border-radius.md)
+  - [Box and Text Shadow](docs/development/css/box-shadow.md)
+  - [Medidas Relativas](docs/development/css/relative-mesure.md)
+  - [Ordem de Precedência](docs/development/css/precedence.md)
+  - [Posicionamento](docs/development/css/position.md)
