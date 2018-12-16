@@ -1,0 +1,4 @@
+- **Terminal Unix**
+  - [Alias](docs/development/terminal/alias.md)
+  - Snippets
+    - [Meus Aliases](docs/development/terminal/snippets/my-aliases.md)

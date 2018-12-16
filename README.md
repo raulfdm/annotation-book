@@ -1,54 +1,71 @@
-# Personal Gitbook Annotation
+# Personal Notebook Annotation
 
-> Personal online nootbook to write my studies, ideas, bug solutions and whatelse I wish :notebook:
+> Personal online notebook to write down my studies, ideas, bug solutions and what else I want to :notebook:
 
-* [Github Project](https://github.com/raulfdm/annotation-book)
-* [Online Notebook](https://raulfdm-gitbook.surge.sh/)
+- [Github Project](https://github.com/raulfdm/annotation-book)
+- [Online Notebook](https://raulfdm-gitbook.surge.sh/)
 
 ---
 
-## :warning: Atention :warning:
-
-All my notes were wrote in PT-BR, because it's my main language, but, you can use this project to create your own notebook!
+> ⚠️ Attention ️️️️⚠️
+> All my notes were wrote in PT-BR because it's my mother language But you can use it to create your own.
 
 ## How to Use
 
-First of all you have to understand what is a Gitbook. For this, I really recommend to access [this website](https://toolchain.gitbook.com/).
+The first version of this project was based on Gitbook. However, after read [this issue](https://github.com/GitbookIO/gitbook/issues/1808) on Gitbook's repository it seems the team will not keep Gitbook V2 open-source. Also there's no reply and answers on the issues there so I've just decided to find another open-source and well maintained solution which solves my problem.
 
-If you already know it, following the steps bellow:
+### Docsify
+
+[Docsify](https://docsify.js.org) is a really nice tool to build web documentation writing markdown. They use VueJS, which makes the lib way lighter and also fast.
+
+I really like this tool because:
+
+- it's been maintained by the community;
+- run fast on dev mode and don't have to build;
+- Easy configurable and customizable;
+- Documentation clear and neat with some really good examples and showcases;
+
+### Running
 
 1. Clone this project;
-1. Install all dependencies:
-
+1. Install the dependencies:
 
 ```bash
-cd <folder-created>
 yarn install
 # or
 npm install
 ```
 
-1. Statt the server running:
-
+1. Run it locally:
 
 ```bash
-yarn start
+yarn dev
 # or
-npm start
+npm dev
 ```
 
-## To Deploy
+## Folder Structure
 
-To deploy this book I'm using [Surge](https://surge.sh/). If you want to deploy you own, access their website, install the CLI and configure it.
+Here's the folder structure of this project:
 
-Then, open `package.json` file and at `deploy` script, set the URL you want to display your book (for free deploy, keep `<my-custom-url>.surge.sh`).
+```
+annotation-book/
+├── docs/
+│   ├── development/*
+│   └── ...
+├── _sidebar.md
+├── index.html
+└── package.json
+```
 
-## Notes
+However, it's also possible to customize as you want, like add all those files inside a `docs` folder. [See more about it here](https://docsify.js.org/#/quickstart).
 
-* Everytime you add a new plugin run:
+### \_sidebar.md
 
-  ```bash
-  yarn gb:install
-  # or
-  npm run gb:install
-  ```
+Here's the main sidebar structure. If you navigate through folders inside `docs`, you'll more `_sidebar.md` files. Fortunately Docsify allow us to have nested Sidebars as you can see on [their documentation](https://docsify.js.org/#/more-pages?id=nested-sidebars).
+
+### index.html
+
+Here's the entry point of the project. It's the place where we init `Docisfy` and also import `themes`, `plugins` and customize things.
+
+Also the this is the file to be hosted (together with the docs of course) by the http server (e.g. Netilify, Github Pages, Gitlab Pages, etc.).

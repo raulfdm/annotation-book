@@ -1,0 +1,11 @@
+- **Regex**
+  - [Geral](docs/development/regex/README.md)
+  - [Anotações](docs/development/regex/notes.md)
+  - [A](docs/development/regex/notes.md)
+  - Temas
+    - [Começando com Regex](docs/development/regex/topics/getting-started.md)
+    - [Classes](docs/development/regex/topics/char-class.md)
+    - [Âncoras](docs/development/regex/topics/anchor.md)
+    - [Grupos](docs/development/regex/topics/groups.md)
+    - [Greedy e Backreference](docs/development/regex/topics/lazy-greedy.md)
+    - [Regex JS](docs/development/regex/topics/regex-js.md)
