@@ -1,0 +1,5 @@
+- **VSCode**
+---
+- Snippets
+  - [Tasks](docs/development/vscode/snippets/task.md)
+- [Configurar tasks](docs/development/vscode/configure-tasks.md)

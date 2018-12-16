@@ -1,0 +1,8 @@
+- **Nutrição**
+  - [Dieta Flexível](docs/nutrition/flexible-diet/README.md)
+    - [Balanço Calórico](docs/nutrition/flexible-diet/balanco-calorico/README.md)
+      - [Gasto](docs/nutrition/flexible-diet/balanco-calorico/gasto-calorico.md)
+      - [Calculo](docs/nutrition/flexible-diet/balanco-calorico/calculo-calorias.md)
+        - [Meu resultado](docs/nutrition/flexible-diet/balanco-calorico/resultados.md)
+      - [Ajustes](docs/nutrition/flexible-diet/balanco-calorico/ajuste-calorico.md)
+      - [Avaliando o Progresso](docs/nutrition/flexible-diet/balanco-calorico/medindo-progresso.md)

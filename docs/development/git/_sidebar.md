@@ -1,0 +1,8 @@
+- **Git**
+  - [Tutorial](docs/development/git/all.md)
+  - [GIT + Vscode](docs/development/git/vscode-git.md)
+  - [Problemas e Soluções](docs/development/git/troubleshoot.md)
+  - [Rebase](docs/development/git/rebase.md)
+  - [--set-upstream](docs/development/git/upstream.md)
+  - [Cherry Pick](docs/development/git/cherry-pick.md)
+  - [Commit Parcial](docs/development/git/git-add-partial.md)

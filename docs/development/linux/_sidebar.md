@@ -1,0 +1,9 @@
+- **Linux**
+  - [Programas "must-have"](docs/development/linux/default-programs.md)
+  - Instalações e Guias
+    - [Arquivos APPIMAGE](docs/development/linux/installing/appimage.md)
+    - [Correção NPM Global](docs/development/linux/installing/npm-global-fix.md)
+    - [Fraz](docs/development/linux/installing/franz.md)
+    - [Otimizar Linux](docs/development/linux/installing/optimization.md)
+    - [Playonlinux Ubuntu 17](docs/development/linux/installing/playonlinux-ubuntu17.md)
+    - [Ruby no Linux](docs/development/linux/installing/ruby-on-linux.md)
