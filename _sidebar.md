@@ -19,6 +19,7 @@
   - [Redux](docs/development/redux/README.md)
   - [Regex (JS)](docs/development/regex/readme.md)
   - [TypeScript](docs/development/typescript/_sidebar.md)
+  - [Terminal](docs/development/terminal/readme.md)
   - [VIM](docs/development/vim/readme.md)
   - [VSCode](docs/development/vscode/readme.md)
   - [Vue](docs/development/vuejs/all.md)

@@ -1,4 +1,5 @@
 - **Terminal Unix**
   - [Alias](docs/development/terminal/alias.md)
+  - [Folder structure](docs/development/terminal/directory-tree.md)
   - Snippets
     - [Meus Aliases](docs/development/terminal/snippets/my-aliases.md)
