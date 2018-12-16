@@ -8,6 +8,7 @@
 ---
 
 > ⚠️ Attention ️️️️⚠️
+>
 > All my notes were wrote in PT-BR because it's my mother language But you can use it to create your own.
 
 ## How to Use
@@ -68,4 +69,4 @@ Here's the main sidebar structure. If you navigate through folders inside `docs`
 
 Here's the entry point of the project. It's the place where we init `Docisfy` and also import `themes`, `plugins` and customize things.
 
-Also the this is the file to be hosted (together with the docs of course) by the http server (e.g. Netilify, Github Pages, Gitlab Pages, etc.).
+Also the this is the file to be hosted (together with the docs of course) by the http server (e.g. [Netlify](netlify.com), [Github Pages](https://pages.github.com/), [Gitlab Pages](https://docs.gitlab.com/ee/user/project/pages/), etc.).
