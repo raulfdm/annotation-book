@@ -7,9 +7,7 @@
 
 ---
 
-> ⚠️ Attention ️️️️⚠️
->
-> Most of my notes were wrote in pt-BR (🇧🇷) because it's my mother language. So if you're not a portuguese speaker the annotations won't make sense at all, however, I'm writing this introduction in english to make it possible everyone uses the base structure and create your own notebook :).
+!> Most of my notes were wrote in pt-BR (🇧🇷) because it's my mother language. So if you're not a portuguese speaker the annotations won't make sense at all, however, I'm writing this introduction in english to make it possible everyone uses the base structure and create your own notebook :).
 
 ## How to Use
 
