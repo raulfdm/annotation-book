@@ -15,6 +15,7 @@
   - [NodeJS](docs/development/node/readme)
   - [Project Tips](docs/development/projects/readme.md)
   - [PubSubJS](docs/development/javascript/pubsub-js.md)
+  - [React](docs/development/react/readme.md)
   - [React Native](docs/development/react-native/general.md)
   - [Redux](docs/development/redux/README.md)
   - [Regex (JS)](docs/development/regex/readme.md)
