@@ -15,3 +15,9 @@ ES module bundle, suitable for use in other people's libraries and applications,
 a UMD build, suitable for use in any environment (including the browser, as a <script> tag), that includes the external dependency. This corresponds to the "browser" field in package.json
 
 Font: https://github.com/rollup/rollup-starter-lib
+
+
+# Another resources
+
+- https://babeljs.io/blog/2018/06/26/on-consuming-and-publishing-es2015+-packages
+- https://jasonformat.com/enabling-modern-js-on-npm/
