@@ -11,6 +11,7 @@
   - [Angular](docs/development/angular/readme.md)
   - [BabelJS](docs/development/babel/readme.md)
   - [CSS](docs/development/css/readme.md)
+  - [Flutter](docs/development/flutter/readme.md)
   - [JavaScript](docs/development/javascript/readme.md)
   - [JS Libraries](docs/development/js-libraries/README.md)
   - [Network](docs/development/network/readme.md)
