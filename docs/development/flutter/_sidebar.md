@@ -1,3 +1,4 @@
 - **Flutter**
   - [General](docs/development/flutter/readme.md)
+  - [TextScaleFactor](docs/development/flutter/text-scale.md)
   - [Resources](docs/development/flutter/resources.md)
