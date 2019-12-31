@@ -1,5 +1,6 @@
 - [Dicas Aleatórias](docs/development/css/random-tips.md)
 - [Stick Footer](docs/development/css/stick-footer.md)
+- [CSS Grid](docs/development/css/grid.md)
 - Conceitos
   - [Border Radius](docs/development/css/border-radius.md)
   - [Box and Text Shadow](docs/development/css/box-shadow.md)
