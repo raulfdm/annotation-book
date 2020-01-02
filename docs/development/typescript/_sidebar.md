@@ -1,2 +1,10 @@
 - [Casting](docs/development/typescript/casting.md)
 - [Decorators](docs/development/typescript/decorators.md)
+- Classes
+  - [Basics](docs/development/typescript/classes/basics.md)
+  - [Class Fields](docs/development/typescript/classes/class-fields)
+  - [Accessors](docs/development/typescript/classes/acessors)
+  - [Short Hand Initialization](docs/development/typescript/classes/short-hand-initialization)
+  - [Inheritance](docs/development/typescript/classes/inheritance)
+  - [Abstract Class](docs/development/typescript/classes/abstract-class)
+  - [Singleton](docs/development/typescript/classes/singleton)
