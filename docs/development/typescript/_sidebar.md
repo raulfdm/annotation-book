@@ -8,3 +8,8 @@
   - [Inheritance](docs/development/typescript/classes/inheritance)
   - [Abstract Class](docs/development/typescript/classes/abstract-class)
   - [Singleton](docs/development/typescript/classes/singleton)
+- Interface
+  - [Basics](docs/development/typescript/interface/basics.md)
+  - [With Class](docs/development/typescript/interface/with-class.md)
+  - [Inheritance](docs/development/typescript/interface/inheritance.md)
+  - [Function Type](docs/development/typescript/interface/function-type.md)
