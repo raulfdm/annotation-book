@@ -13,3 +13,5 @@
   - [With Class](docs/development/typescript/interface/with-class.md)
   - [Inheritance](docs/development/typescript/interface/inheritance.md)
   - [Function Type](docs/development/typescript/interface/function-type.md)
+- Advanced Types
+  - [Intersection](docs/development/typescript/advanced/intersection.md)
