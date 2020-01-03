@@ -15,3 +15,4 @@
   - [Function Type](docs/development/typescript/interface/function-type.md)
 - Advanced Types
   - [Intersection](docs/development/typescript/advanced/intersection.md)
+  - [Union](docs/development/typescript/advanced/union.md)

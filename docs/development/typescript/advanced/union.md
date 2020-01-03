@@ -70,11 +70,41 @@ function printFunctions(vehicle: Vehicle) {
 
 ## Class
 
-Seguindo o mesmo exemplo anterior, se tanto `Car` e `Bike` fossem uma classe, poderiamos checar através do `instanceof` (também JS):
+Seguindo o mesmo exemplo anterior, se tanto `Car` e `Bike` fossem uma classe, poderíamos checar através do `instanceof` (também JS):
 
 ```ts
-type Car
 class Car {
-  wheels: 2;
+  wheels = 4;
+
+  openTrunk() {
+    console.log("Opening trunk...");
+  }
 }
+
+class Bike {
+  wheels = 2;
+
+  openTrunk() {
+    console.log("Opening trunk...");
+  }
+}
+
+/* Vehicle pode ser tanto ambos Car e Bike classe. */
+type Vehicle = Car | Bike;
+
+function printFunctions(vehicle: Vehicle) {
+  console.log("Number of Wheels", vehicle.wheels);
+  if (vehicle instanceof Car) {
+    vehicle.openTrunk();
+  }
+}
+
+const vehicle: Vehicle = new Car();
+printFunctions(vehicle);
+// Number of Wheels 4
+// Opening trunk...
+
+const vehicle2: Vehicle = new Bike();
+printFunctions(vehicle2);
+// Number of wheels 2
 ```
