@@ -108,3 +108,73 @@ const vehicle2: Vehicle = new Bike();
 printFunctions(vehicle2);
 // Number of wheels 2
 ```
+
+## Discriminated Union
+
+O nome `Union` é auto explicativo, ou seja, a união de dois ou mais tipos. Isso significa que dado os tipos:
+
+```ts
+type Admin = {
+  name: string;
+  privileges: string[];
+};
+
+type Regular = {
+  name: string;
+};
+```
+
+e uma união entre eles:
+
+```ts
+type User = Admin | Regular;
+```
+
+Significa que user `User` SEMPRE terá um atributo chamado `name`, pois é o ponto em comum entre `Admin` e `Regular`.
+
+Podemos utilizar esta feature para criar um ponto em comum e ajudar no [`type guard`](docs/development/typescript/advanced/type-guard):
+
+```ts
+type Admin = {
+  type: "admin";
+  name: string;
+  privileges: string[];
+};
+
+type Regular = {
+  type: "regular";
+  name: string;
+};
+
+type User = Regular | Admin;
+```
+
+O ponto em comum entre os dois será o field `type`. Assim, em qualquer função onde precisamos chamar uma função específica de um tipo, podemos fazer um `if` ou um `switch`:
+
+```ts
+function executeDangerousCommand(user: User) {
+  switch (user.type) {
+    case "admin": {
+      console.log("Doing something dangerous");
+      break;
+    }
+    case "regular": {
+      console.log("You do not have privileges");
+      break;
+    }
+  }
+}
+
+const user: User = {
+  type: "admin",
+  name: "Raul",
+  privileges: ["Root"]
+};
+executeDangerousCommand(user); // Doing something dangerous
+
+const user2: User = {
+  type: "regular",
+  name: "John Do"
+};
+executeDangerousCommand(user2); // You do not have privileges
+```
