@@ -1,4 +1,3 @@
-- [Casting](docs/development/typescript/casting.md)
 - [Decorators](docs/development/typescript/decorators.md)
 - Classes
   - [Basics](docs/development/typescript/classes/basics.md)
@@ -16,3 +15,4 @@
 - Advanced Types
   - [Intersection](docs/development/typescript/advanced/intersection.md)
   - [Union e Type Guards](docs/development/typescript/advanced/union.md)
+  - [Type Casting](docs/development/typescript/advanced/casting.md)
