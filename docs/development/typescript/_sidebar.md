@@ -18,3 +18,4 @@
   - [Union e Type Guards](docs/development/typescript/advanced/union.md)
   - [Type Casting](docs/development/typescript/advanced/casting.md)
   - [Function Overload](docs/development/typescript/advanced/function-overload.md)
+  - [Optional Chaining](docs/development/typescript/advanced/optional-chaining.md)
