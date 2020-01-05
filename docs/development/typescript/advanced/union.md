@@ -1,4 +1,4 @@
-# Union
+# Union e Type Guards
 
 É bem próximo de [intersection](docs/development/typescript/advanced/intersection.md), porém, tem a função de **OU**:
 
@@ -55,7 +55,26 @@ function printFunctions(vehicle: Vehicle) {
 }
 ```
 
-Nessa perspectiva, `Type Guards` nada mais é do que uma maneira de ter CERTEZA de que aquela properidade estará disponível. Usando `in` de JS, podemos contornar esse problema:
+Então como resolver isso? É Aqui que entra o conceito de `Type Guards`
+
+## Type Guards
+
+`Type Guards` nada mais é do que uma maneira de ter CERTEZA de que aquela prosperidade estará disponível. Existem algumas maneiras de resolver esse problema.
+
+### in operator
+
+O primeiro é utilizando um operador nativo em JS, o `in`. Basicamente o usamos para poder checar em `runtime` se a propriedade `x` existe no objeto `y`.
+
+```js
+// javascript puro
+var person = { name: "Raul" };
+console.log("name" in person); // true
+console.log("age" in person); // false
+```
+
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in
+
+Logo, quando fazemos o mesmo código, mas em TS, ele entende como sendo seguro e nos permite usar o tipo dentro daquela validação:
 
 ```ts
 function printFunctions(vehicle: Vehicle) {
@@ -66,9 +85,7 @@ function printFunctions(vehicle: Vehicle) {
 }
 ```
 
-> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in
-
-## Class
+### Class
 
 Seguindo o mesmo exemplo anterior, se tanto `Car` e `Bike` fossem uma classe, poderíamos checar através do `instanceof` (também JS):
 
@@ -109,7 +126,7 @@ printFunctions(vehicle2);
 // Number of wheels 2
 ```
 
-## Discriminated Union
+### Discriminated Union
 
 O nome `Union` é auto explicativo, ou seja, a união de dois ou mais tipos. Isso significa que dado os tipos:
 
@@ -132,7 +149,7 @@ type User = Admin | Regular;
 
 Significa que user `User` SEMPRE terá um atributo chamado `name`, pois é o ponto em comum entre `Admin` e `Regular`.
 
-Podemos utilizar esta feature para criar um ponto em comum e ajudar no [`type guard`](docs/development/typescript/advanced/type-guard):
+Podemos utilizar esta feature para criar um ponto em comum e ajudar no `Type Guard`:
 
 ```ts
 type Admin = {
