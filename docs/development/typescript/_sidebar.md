@@ -1,4 +1,5 @@
 - [Decorators](docs/development/typescript/decorators.md)
+- [Types](docs/development/typescript/types.md)
 - Classes
   - [Basics](docs/development/typescript/classes/basics.md)
   - [Class Fields](docs/development/typescript/classes/class-fields)
