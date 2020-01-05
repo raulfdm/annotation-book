@@ -17,3 +17,4 @@
   - [Intersection](docs/development/typescript/advanced/intersection.md)
   - [Union e Type Guards](docs/development/typescript/advanced/union.md)
   - [Type Casting](docs/development/typescript/advanced/casting.md)
+  - [Function Overload](docs/development/typescript/advanced/function-overload.md)
