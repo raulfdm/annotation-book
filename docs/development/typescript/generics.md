@@ -167,7 +167,7 @@ console.log(getProp({ name: "Raul", age: 80 }, "age")); // 80
 
 Para definir `constraints`, usamos a keyword `extends`, que no fim, define uma regra.
 
-#### `T extends object`.
+### `T extends object`.
 
 Nessa afirmação, dizemos que T só pode ser do tipo `object`. Se tentarmos passar qualquer outro tipo, receberemos um erro:
 
@@ -180,3 +180,64 @@ console.log(getProp(true, "age")); // Argument of type 'true' is not assignable 
 `keyof` é um `utility` que nos permite olhar para dentro de um objeto de pegar todas as keys dele.
 
 Logo, dizemos que `U` pode ser QUALQUER key presente em `T`.
+
+## More
+
+Ainda dentro dos `Generics`, mas numa abordagem ainda mais flexivel é quando queremos apenas que o elemento passado tenha a propriedade X, ou seja, pode ser uma string, um array, ou qualquer outro tipo que tenha a propriedade X.
+
+Vamos imaginar uma função que espera receber uma objeto com a propriedade `length`. Bem, além de objetos proprios, vários prototypes em JS possuem `length`, como por exemplo, array, string e function (sim, function.length diz quantos argumentos foram passados):
+
+```js
+function countLength(element) {
+  if (element.length < 1) {
+    return `Has no elements`;
+  } else if (element.length < 2) {
+    return `Has 1 element.`;
+  }
+  return `Has ${element.length} elements.`;
+}
+
+console.log(countLength([])); // Has no elements
+console.log(countLength([1])); // Has 1 element.
+console.log(countLength("abc")); // Has 3 elements.
+console.log(countLength(function lol(t: any, u: any, v: any, x: any) {})); // Has 4 elements.
+console.log(countLength({ length: 3000 })); // Has 3000 elements.
+```
+
+Eu sei que é uma função aparentemente inútil, mas pense na abstração que fizemos. Passamos array, string, custom object e todos possuem a propriedade `length` para ser chamada.
+
+Mas, como definir um tipo neste caso? Ao tentarmos dizer que `countLength` vai receber um argumento `T` e element será `T`, temos um erro:
+
+```ts
+function countLength<T>(element: T) {
+  if (element.length < 1) {
+    //Property 'length' does not exist on type 'T'.(2339)
+    return `Has no elements`;
+  } else if (element.length < 2) {
+    //Property 'length' does not exist on type 'T'.(2339)
+    return `Has 1 element.`;
+  }
+  return `Has ${element.length} elements.`; //Property 'length' does not exist on type 'T'.(2339)
+}
+```
+
+Neste caso, podemos então definir um tipo proprio e dizer que `T` pode ser QUALQUER COISA, desde que tenha a propriedade `length`:
+
+```ts
+type Lengthy = { length: string | number };
+
+function countLength<T extends Lengthy>(element: T) {
+  if (element.length < 1) {
+    return `Has no elements`;
+  } else if (element.length < 2) {
+    return `Has 1 element.`;
+  }
+  return `Has ${element.length} elements.`;
+}
+
+console.log(countLength([])); // Has no elements
+console.log(countLength([1])); // Has 1 element.
+console.log(countLength("abc")); // Has 3 elements.
+console.log(countLength(function lol(t: any, u: any, v: any, x: any) {})); // Has 4 elements.
+console.log(countLength({ length: 3000 })); // Has 3000 elements.
+```
