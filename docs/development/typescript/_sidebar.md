@@ -1,6 +1,9 @@
+# TypeScript
+
 - [Types](docs/development/typescript/types.md)
 - [Generics](docs/development/typescript/generics.md)
 - [Decorators](docs/development/typescript/decorators.md)
+- [Utility Types](docs/development/typescript/utility-types.md)
 - Classes
   - [Basics](docs/development/typescript/classes/basics.md)
   - [Class Fields](docs/development/typescript/classes/class-fields)
