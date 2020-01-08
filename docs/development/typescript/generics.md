@@ -181,7 +181,7 @@ console.log(getProp(true, "age")); // Argument of type 'true' is not assignable 
 
 Logo, dizemos que `U` pode ser QUALQUER key presente em `T`.
 
-## More
+## More about extends
 
 Ainda dentro dos `Generics`, mas numa abordagem ainda mais flexivel é quando queremos apenas que o elemento passado tenha a propriedade X, ou seja, pode ser uma string, um array, ou qualquer outro tipo que tenha a propriedade X.
 
@@ -241,3 +241,9 @@ console.log(countLength("abc")); // Has 3 elements.
 console.log(countLength(function lol(t: any, u: any, v: any, x: any) {})); // Has 4 elements.
 console.log(countLength({ length: 3000 })); // Has 3000 elements.
 ```
+
+## Generic Classes
+
+> https://www.typescriptlang.org/docs/handbook/generics.html#generic-classes
+
+<!-- TODO -->
