@@ -4,7 +4,7 @@
 
 Tipos utilitários são ferramentas que nos ajudam a definir melhor os tipos que precisamos e com menos código. Todos eles são baseados em `Generics`, ou seja, um entendimento prévio de como tipos genericos funcionam é essencial para a compreensão de como utiliza-los.
 
-## Partial<T>
+## Partial\<T>
 
 Vamos olhar o seguinte exemplo:
 
@@ -78,7 +78,7 @@ function createPerson(name: string, age: number): Person {
 createPerson("Raul", 88);
 ```
 
-## Readonly<T>
+## Readonly\<T>
 
 <!-- TODO -->
 
@@ -166,27 +166,27 @@ const simpleData: Omit<Person, "isUnder18"> = {
 
 <!-- TODO -->
 
-## NonNullable<T>
+## NonNullable\<T>
 
 <!-- TODO -->
 
-## Parameters<T>
+## Parameters\<T>
 
 <!-- TODO -->
 
-## ConstructorParameters<T>
+## ConstructorParameters\<T>
 
 <!-- TODO -->
 
-## ReturnType<T>
+## ReturnType\<T>
 
 <!-- TODO -->
 
-## InstanceType<T>
+## InstanceType\<T>
 
 <!-- TODO -->
 
-## Required<T>
+## Required\<T>
 
 <!-- TODO -->
 
@@ -198,6 +198,6 @@ const simpleData: Omit<Person, "isUnder18"> = {
 
 <!-- TODO -->
 
-## ThisType<T>
+## ThisType\<T>
 
 <!-- TODO -->
