@@ -21,3 +21,19 @@ interface IHashMap {
 Estamos dizendo que `key` é dinamico e precisa ser do tipo string, o que é um pouco óbvio, afinal, em objetos comuns (não Map), `key` é sempre uma string.
 
 Já com o valor ser do tipo `string`, isso vai depender de que tipo de objeto você espera. Poderia ser `unknown`, `any`, algum tipo próprio.
+
+## Never
+
+O tipo `never` é usado para definir retorno de função que NUNCA retornarão nada, como é o caso de uma função que tem o objeto de dar `throw` em um erro:
+
+```ts
+// Function returning never must have unreachable end point
+function error(message: string): never {
+  throw new Error(message);
+}
+
+// Inferred return type is never
+function fail() {
+  return error("Something failed");
+}
+```
