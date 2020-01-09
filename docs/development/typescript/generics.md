@@ -245,5 +245,5 @@ console.log(countLength({ length: 3000 })); // Has 3000 elements.
 ## Generic Classes
 
 > https://www.typescriptlang.org/docs/handbook/generics.html#generic-classes
-
+> https://www.udemy.com/course/understanding-typescript/learn/lecture/16894068
 <!-- TODO -->
