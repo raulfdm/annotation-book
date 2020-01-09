@@ -1,26 +1,25 @@
-# TypeScript
-
-- [Types](docs/development/typescript/types.md)
-- [Generics](docs/development/typescript/generics.md)
-- [Decorators](docs/development/typescript/decorators.md)
-- [Utility Types](docs/development/typescript/utility-types.md)
-- Classes
-  - [Basics](docs/development/typescript/classes/basics.md)
-  - [Class Fields](docs/development/typescript/classes/class-fields)
-  - [Accessors](docs/development/typescript/classes/acessors)
-  - [Short Hand Initialization](docs/development/typescript/classes/short-hand-initialization)
-  - [Inheritance](docs/development/typescript/classes/inheritance)
-  - [Abstract Class](docs/development/typescript/classes/abstract-class)
-  - [Singleton](docs/development/typescript/classes/singleton)
-- Interface
-  - [Basics](docs/development/typescript/interface/basics.md)
-  - [With Class](docs/development/typescript/interface/with-class.md)
-  - [Inheritance](docs/development/typescript/interface/inheritance.md)
-  - [Function Type](docs/development/typescript/interface/function-type.md)
-- Advanced Types
-  - [Intersection](docs/development/typescript/advanced/intersection.md)
-  - [Union e Type Guards](docs/development/typescript/advanced/union.md)
-  - [Type Casting](docs/development/typescript/advanced/casting.md)
-  - [Function Overload](docs/development/typescript/advanced/function-overload.md)
-  - [Optional Chaining](docs/development/typescript/advanced/optional-chaining.md)
-  - [Nullish Coalescing](docs/development/typescript/advanced/nullish-coalescing.md)
+- TypeScript
+  - [Types](docs/development/typescript/types.md)
+  - [Generics](docs/development/typescript/generics.md)
+  - [Decorators](docs/development/typescript/decorators.md)
+  - [Utility Types](docs/development/typescript/utility-types.md)
+  - Classes
+    - [Basics](docs/development/typescript/classes/basics.md)
+    - [Class Fields](docs/development/typescript/classes/class-fields)
+    - [Accessors](docs/development/typescript/classes/acessors)
+    - [Short Hand Initialization](docs/development/typescript/classes/short-hand-initialization)
+    - [Inheritance](docs/development/typescript/classes/inheritance)
+    - [Abstract Class](docs/development/typescript/classes/abstract-class)
+    - [Singleton](docs/development/typescript/classes/singleton)
+  - Interface
+    - [Basics](docs/development/typescript/interface/basics.md)
+    - [With Class](docs/development/typescript/interface/with-class.md)
+    - [Inheritance](docs/development/typescript/interface/inheritance.md)
+    - [Function Type](docs/development/typescript/interface/function-type.md)
+  - Advanced Types
+    - [Intersection](docs/development/typescript/advanced/intersection.md)
+    - [Union e Type Guards](docs/development/typescript/advanced/union.md)
+    - [Type Casting](docs/development/typescript/advanced/casting.md)
+    - [Function Overload](docs/development/typescript/advanced/function-overload.md)
+    - [Optional Chaining](docs/development/typescript/advanced/optional-chaining.md)
+    - [Nullish Coalescing](docs/development/typescript/advanced/nullish-coalescing.md)
