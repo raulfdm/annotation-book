@@ -88,11 +88,75 @@ createPerson("Raul", 88);
 
 ## Pick<T,K>
 
-<!-- TODO -->
+O utilitário Pick serve para casos onde temos um objeto, classe, interface ou tipo e queremos pegar somente ALGUMAS propriedades do mesmo.
+
+Vamos imaginar que temos uma interface `Person` que define vários atributos:
+
+```ts
+type Person = {
+  name: string;
+  age: number;
+  id: string;
+  createDate: Date;
+  isUnder18: boolean;
+};
+```
+
+Porém, por algum motivo precisamos criar um objeto que seja do tipo `Person`, mas com menos fields. Se tentarmos:
+
+```ts
+const simpleData: Person = {
+  // Type '{ name: string; age: number; }' is missing the following properties from type 'Person': id, createDate, isUnder18(2739)
+  name: "Raul",
+  age: 88
+};
+```
+
+teremos um erro que faz muito sentido, pois estamos dizendo que `simpleData` é do tipo `Person` mas não satisfazemos a assinatura dos parâmetros.
+
+Para contornar isso, podemos fazer:
+
+```ts
+type Person = {
+  name: string;
+  age: number;
+  id: string;
+  createDate: Date;
+  isUnder18: boolean;
+};
+
+const simpleData: Pick<Person, "age" | "name"> = {
+  name: "Raul",
+  age: 88
+};
+```
+
+Logo, se inspecionarmos o tipo de `simpleData`, ele será: `const simpleData: Pick<Person, "age" | "name">`.
+
+Isso significa que quando tentamos usar `simpleData`, teremos acesso APENAS a `age` e `name`.
 
 ## Omit<T,K>
 
-<!-- TODO -->
+Omit é o oposto do Pick. É quando queremos pegar quase todas propriedades, exceto algumas bem específicas.
+
+Ainda no exemplo de `Pick`, vamos imaginar que agora eu tenho um `simpleData` que vai ter quase tudo que `Person` pede, exceto `isUnder18`:
+
+```ts
+type Person = {
+  name: string;
+  age: number;
+  id: string;
+  createDate: Date;
+  isUnder18: boolean;
+};
+
+const simpleData: Omit<Person, "isUnder18"> = {
+  name: "Raul",
+  age: 88,
+  id: "1234",
+  createDate: new Date()
+};
+```
 
 ## Exclude<T,U>
 
