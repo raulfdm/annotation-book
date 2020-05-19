@@ -1,4 +1,0 @@
-- **Angular**
-- [Setup](docs/development/angular/basic-setup.md)
-- [Conceitos](docs/development/angular/concepts.md)
-- [Convenções](docs/development/angular/treaty.md)
