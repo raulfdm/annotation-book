@@ -1,3 +1,9 @@
+# Deprecation Warning
+
+With the advance of new technologies like Notion, this project isn't needed anymore. Actually I migrate my Notebook to there and you can find the link of it [here](https://www.notion.so/raulmelo/Notebook-cc64649d23eb44d38914c616322f5c24).
+
+---
+
 # Personal Notebook Annotation
 
 > Personal online notebook to write down my studies, ideas, bug solutions and what else I want to :notebook:
